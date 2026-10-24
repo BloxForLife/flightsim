@@ -3,13 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gallery — iSim Egypt</title>
-<link rel="icon" type="image/png" href="isim.png">
-<meta name="description" content="A closer look inside the iSim Egypt A320 flight simulator cockpit at City Stars Mall, Cairo.">
-<link rel="canonical" href="https://bloxforlife.github.io/isimegypt/gallery.html">
-<meta property="og:title" content="Gallery — iSim Egypt">
-<meta property="og:description" content="A closer look inside the iSim Egypt A320 flight simulator cockpit at City Stars Mall, Cairo.">
-<meta property="og:image" content="https://bloxforlife.github.io/isimegypt/gallery/cockpit-night-runway.jpg">
+<title>Gallery — Flight Sim Template</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="description" content="Gallery page from a flight simulator website template.">
+<meta property="og:title" content="Gallery — Flight Sim Template">
+<meta property="og:description" content="Gallery page from a flight simulator website template.">
+<meta property="og:image" content="https://isimegypt.vercel.app/gallery/glass-cockpit.jpg">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap" rel="stylesheet">
@@ -29,7 +28,7 @@
   <button class="nav-burger" id="burgerBtn" aria-label="Open menu">
     <span></span><span></span><span></span>
   </button>
-  <a href="index.html" class="nav-logo"><img src="isim.png" alt="iSim Egypt logo"></a>
+  <a href="index.html" class="nav-logo"><span class="logo-text">Your Logo</span></a>
 </nav>
 
 <div class="menu-backdrop" id="menuBackdrop"></div>
@@ -45,64 +44,28 @@
 
 <div class="page-hero">
   <h1>Inside the cockpit</h1>
-  <p>A closer look at what's waiting for you.</p>
-</div>
-
-<div class="testimonial-block">
-  <div class="testimonial-quote">"The only place to fly an A320 with this level of system fidelity outside an official airline sim."</div>
+  <p>A closer look at the flight deck.</p>
 </div>
 
 <div class="section-wrap">
   <div class="gallery-grid reveal">
 
-    <a class="gallery-tile" href="gallery/cockpit-night-runway.jpg"
-       data-caption="Night departure — lined up on the centreline, landing lights on.">
-      <img src="gallery/cockpit-night-runway.jpg" width="1920" height="1080" loading="eager" decoding="async"
-           alt="Instructor in uniform flying the iSim A320 simulator at night, runway lights stretching ahead through the windscreen.">
-      <span class="tile-cap">Night departure</span>
-    </a>
-
-    <a class="gallery-tile" href="gallery/center-pedestal.jpg"
-       data-caption="The centre pedestal — thrust levers, speed brake, flap lever and both MCDUs.">
-      <img src="gallery/center-pedestal.jpg" width="598" height="960" loading="lazy" decoding="async"
-           alt="Overhead view of the A320 centre pedestal showing the thrust levers, speed brake, flap lever and twin MCDU keypads.">
-      <span class="tile-cap">Centre pedestal</span>
-    </a>
-
-    <a class="gallery-tile" href="gallery/flight-deck-day.jpg"
-       data-caption="Both seats, overhead panel lit, ready for the walkthrough before you fly.">
-      <img src="gallery/flight-deck-day.jpg" width="1280" height="929" loading="lazy" decoding="async"
-           alt="Full view of the iSim A320 flight deck in daylight, overhead panel illuminated above both pilot seats.">
+    <a class="gallery-tile" href="gallery/glass-cockpit.jpg"
+       data-caption="A full A320 flight deck simulator, lined up on the runway. Photo: Steve Jurvetson, CC BY 2.0.">
+      <img src="gallery/glass-cockpit.jpg" width="1280" height="960" loading="eager" decoding="async"
+           alt="A320 simulator flight deck with glass cockpit displays lit and a runway on the screens ahead.">
       <span class="tile-cap">The flight deck</span>
-    </a>
-
-    <a class="gallery-tile" href="gallery/runway-lineup.jpg"
-       data-caption="Your view from the right seat — 3.5 km of runway and nothing else to do but fly it.">
-      <img src="gallery/runway-lineup.jpg" width="1280" height="894" loading="lazy" decoding="async"
-           alt="View across the iSim A320 cockpit toward the windscreen, lined up on a daylight runway.">
-      <span class="tile-cap">Cleared for take-off</span>
-    </a>
-
-    <a class="gallery-tile" href="gallery/fcu-panel.jpg"
-       data-caption="The FCU — speed, heading, altitude and vertical speed, exactly where the real one lives.">
-      <img src="gallery/fcu-panel.jpg" width="1280" height="808" loading="lazy" decoding="async"
-           alt="Close-up of the illuminated Flight Control Unit showing speed 149 and heading 054 at night.">
-      <span class="tile-cap">Flight Control Unit</span>
-    </a>
-
-    <a class="gallery-tile" href="gallery/thrust-levers.jpg"
-       data-caption="Detent by detent — CL, FLX/MCT and TOGA, with the engine masters alongside.">
-      <img src="gallery/thrust-levers.jpg" width="1280" height="849" loading="lazy" decoding="async"
-           alt="Close-up of the A320 thrust levers in their gate, engine master switches and start selector beside them.">
-      <span class="tile-cap">Thrust levers</span>
     </a>
 
   </div>
 </div>
 
 <div class="gallery-note section-wrap">
-  <p>Every photograph on this page is the actual simulator at City Stars Mall &mdash; no renders, no stock.</p>
-  <a href="contact.html" class="btn-primary">Book your seat</a>
+  <p class="photo-credits">Placeholder photos from Wikimedia Commons:
+    <a href="https://commons.wikimedia.org/wiki/File:Airbus_A320_Glass_Cockpit.jpg" target="_blank" rel="noopener">Airbus A320 Glass Cockpit</a> by Steve Jurvetson,
+    <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener">CC BY 2.0</a>.
+  </p>
+  <a href="book.html" class="btn-primary">Book your seat</a>
 </div>
 
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
@@ -118,8 +81,8 @@
 <footer>
   <div class="footer-grid">
     <div class="footer-col">
-      <img src="isim.png" alt="iSim Egypt logo" class="footer-logo">
-      <p class="footer-tagline">Egypt's first professional A320 flight simulator experience.</p>
+      <span class="logo-text footer-logo">Your Logo</span>
+      <p class="footer-tagline">A website template for flight simulator centres.</p>
     </div>
     <div class="footer-col">
       <div class="footer-heading">Quick Links</div>
@@ -132,17 +95,17 @@
     </div>
     <div class="footer-col">
       <div class="footer-heading">Contact</div>
-      <p>City Stars Mall, Gate 6, Phase 2, 4th floor, Cairo</p>
-      <a href="https://wa.me/201065473010">01065473010 (WhatsApp)</a>
-      <a href="mailto:info@isimegypt.com">info@isimegypt.com</a>
-      <p>Daily, 10:00 AM – midnight</p>
+      <p>Your address, City</p>
+      <a href="tel:+000000000000">Your phone number</a>
+      <a href="mailto:hello@example.com">hello@example.com</a>
+      <p>Your opening hours</p>
     </div>
     <div class="footer-col">
       <div class="footer-heading">Payment</div>
-      <p>Cash · Visa · InstaPay</p>
+      <p>Your payment methods</p>
     </div>
   </div>
-  <div class="footer-bottom">&copy; <span id="copyYear">2026</span> iSim Egypt. All rights reserved.</div>
+  <div class="footer-bottom">&copy; <span id="copyYear">2026</span> Your Business Name. Template design and build by BloxForLife.</div>
 </footer>
 
 <script src="script.js"></script>

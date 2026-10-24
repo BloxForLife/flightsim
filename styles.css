@@ -24,6 +24,7 @@ nav.scrolled{background:rgba(18,13,8,0.92);backdrop-filter:blur(10px);padding:10
 .nav-links a:hover{color:var(--ink);}
 .nav-logo img{height:56px;width:auto;transition:height 0.3s ease;}
 nav.scrolled .nav-logo img{height:44px;}
+.logo-text{display:inline-block;font-family:'Playfair Display',serif;font-weight:700;font-size:1.15rem;letter-spacing:0.5px;color:var(--gold);border:1.5px dashed var(--gold);border-radius:4px;padding:8px 14px;line-height:1;white-space:nowrap;}
 .nav-burger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:6px;}
 .nav-burger span{width:22px;height:1.5px;background:var(--gold);display:block;}
 .menu-backdrop{position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:59;opacity:0;pointer-events:none;transition:opacity 0.3s ease;}
@@ -265,6 +266,7 @@ footer{padding:56px 24px 28px;border-top:1px solid var(--line);color:var(--ink-d
 @media(max-width:780px){.footer-grid{grid-template-columns:1fr 1fr;gap:28px;}}
 @media(max-width:480px){.footer-grid{grid-template-columns:1fr;}}
 .footer-logo{height:40px;width:auto;margin-bottom:12px;}
+.footer-logo.logo-text{height:auto;}
 .footer-tagline{font-size:0.85rem;line-height:1.5;}
 .footer-social{display:flex;gap:14px;margin-top:14px;}
 .footer-social a{color:var(--ink-dim);font-size:0.8rem;}

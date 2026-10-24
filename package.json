@@ -1,10 +1,7 @@
 {
-  "name": "isimegypt-site",
+  "name": "flight-sim-template",
   "private": true,
   "scripts": {
     "build": "sh build.sh"
-  },
-  "devDependencies": {
-    "staticrypt": "3.5.4"
   }
 }

@@ -3,13 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Book a Session — iSim Egypt</title>
-<link rel="icon" type="image/png" href="isim.png">
-<meta name="description" content="Book an iSim Egypt A320 simulator session at City Stars Mall, Cairo — pick your flight, date and time, then call to confirm.">
-<link rel="canonical" href="https://bloxforlife.github.io/isimegypt/book.html">
-<meta property="og:title" content="Book a Session — iSim Egypt">
-<meta property="og:description" content="Book an iSim Egypt A320 simulator session at City Stars Mall, Cairo — pick your flight, date and time, then call to confirm.">
-<meta property="og:image" content="https://bloxforlife.github.io/isimegypt/gallery/cockpit-night-runway.jpg">
+<title>Book a Session — Flight Sim Template</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="description" content="Booking page from a flight simulator website template.">
+<meta property="og:title" content="Book a Session — Flight Sim Template">
+<meta property="og:description" content="Booking page from a flight simulator website template.">
+<meta property="og:image" content="https://isimegypt.vercel.app/gallery/glass-cockpit.jpg">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap" rel="stylesheet">
@@ -29,7 +28,7 @@
   <button class="nav-burger" id="burgerBtn" aria-label="Open menu">
     <span></span><span></span><span></span>
   </button>
-  <a href="index.html" class="nav-logo"><img src="isim.png" alt="iSim Egypt logo"></a>
+  <a href="index.html" class="nav-logo"><span class="logo-text">Your Logo</span></a>
 </nav>
 
 <div class="menu-backdrop" id="menuBackdrop"></div>
@@ -57,17 +56,17 @@
         <select id="bkSession" required>
           <option value="">Choose a session</option>
           <optgroup label="Entertainment">
-            <option value="basic" data-name="Basic" data-min="15" data-price="EGP 800">Basic · 15 min · EGP 800</option>
-            <option value="advanced" data-name="Advanced" data-min="30" data-price="EGP 1,500">Advanced · 30 min · EGP 1,500</option>
-            <option value="premium" data-name="Premium" data-min="60" data-price="EGP 2,700">Premium · 60 min · EGP 2,700</option>
+            <option value="basic" data-name="Basic" data-min="15" data-price="Your price">Basic · 15 min</option>
+            <option value="advanced" data-name="Advanced" data-min="30" data-price="Your price">Advanced · 30 min</option>
+            <option value="premium" data-name="Premium" data-min="60" data-price="Your price">Premium · 60 min</option>
           </optgroup>
           <optgroup label="Deep learning">
-            <option value="deep15" data-name="Deep learning" data-min="15" data-price="EGP 1,400">Deep learning · 15 min · EGP 1,400</option>
-            <option value="deep30" data-name="Deep learning" data-min="30" data-price="EGP 2,600">Deep learning · 30 min · EGP 2,600</option>
-            <option value="deep60" data-name="Deep learning, two pilots" data-min="60" data-price="EGP 4,400">Two pilots · 60 min · EGP 4,400</option>
+            <option value="deep15" data-name="Deep learning" data-min="15" data-price="Your price">Deep learning · 15 min</option>
+            <option value="deep30" data-name="Deep learning" data-min="30" data-price="Your price">Deep learning · 30 min</option>
+            <option value="deep60" data-name="Deep learning, two pilots" data-min="60" data-price="Your price">Two pilots · 60 min</option>
           </optgroup>
           <optgroup label="Live air traffic control">
-            <option value="atc60" data-name="Live ATC" data-min="60" data-price="EGP 3,600">Live ATC · 60 min · EGP 3,600</option>
+            <option value="atc60" data-name="Live ATC" data-min="60" data-price="Your price">Live ATC · 60 min</option>
           </optgroup>
         </select>
       </div>
@@ -102,13 +101,13 @@
         <dt>Price</dt><dd id="sumPrice"></dd>
         <dt>Name</dt><dd id="sumName"></dd>
       </dl>
-      <a class="btn-primary book-call" href="tel:+201065473010">Call to book · 010 6547 3010</a>
-      <p class="book-note">Read these details out when we answer. Please arrive 10 to 20 minutes early, and pay at the simulator: cash, Visa or InstaPay.</p>
+      <a class="btn-primary book-call" href="tel:+000000000000">Call to book · your phone number</a>
+      <p class="book-note">Read these details out when we answer. Add your arrival and payment details here.</p>
       <button type="button" class="book-edit" id="bookEdit">&larr; Change details</button>
     </div>
 
     <noscript>
-      <p class="book-note">To book, call us on <a href="tel:+201065473010">010 6547 3010</a>.</p>
+      <p class="book-note">To book, call us on <a href="tel:+000000000000">your phone number</a>.</p>
     </noscript>
 
   </div>
@@ -117,8 +116,8 @@
 <footer>
   <div class="footer-grid">
     <div class="footer-col">
-      <img src="isim.png" alt="iSim Egypt logo" class="footer-logo">
-      <p class="footer-tagline">Egypt's first professional A320 flight simulator experience.</p>
+      <span class="logo-text footer-logo">Your Logo</span>
+      <p class="footer-tagline">A website template for flight simulator centres.</p>
     </div>
     <div class="footer-col">
       <div class="footer-heading">Quick Links</div>
@@ -131,17 +130,17 @@
     </div>
     <div class="footer-col">
       <div class="footer-heading">Contact</div>
-      <p>City Stars Mall, Gate 6, Phase 2, 4th floor, Cairo</p>
-      <a href="https://wa.me/201065473010">01065473010 (WhatsApp)</a>
-      <a href="mailto:info@isimegypt.com">info@isimegypt.com</a>
-      <p>Daily, 10:00 AM – midnight</p>
+      <p>Your address, City</p>
+      <a href="tel:+000000000000">Your phone number</a>
+      <a href="mailto:hello@example.com">hello@example.com</a>
+      <p>Your opening hours</p>
     </div>
     <div class="footer-col">
       <div class="footer-heading">Payment</div>
-      <p>Cash · Visa · InstaPay</p>
+      <p>Your payment methods</p>
     </div>
   </div>
-  <div class="footer-bottom">&copy; <span id="copyYear">2026</span> iSim Egypt. All rights reserved.</div>
+  <div class="footer-bottom">&copy; <span id="copyYear">2026</span> Your Business Name. Template design and build by BloxForLife.</div>
 </footer>
 
 <script src="script.js"></script>
